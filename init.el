@@ -1,5 +1,8 @@
 ;; -*- lexical-binding: t; -*-
 
+(require 'init-elpaca-nixos)
+(require 'init-elpaca)
+
 (require 'init-emacs)
 
 ;; Local Variables:
