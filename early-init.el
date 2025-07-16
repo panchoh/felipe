@@ -5,6 +5,7 @@
 (push (expand-file-name "lisp/" user-emacs-directory)
       load-path)
 
+(require 'early-elpaca)
 (require 'early-startup-time)
 (require 'early-ui-tweaks)
 

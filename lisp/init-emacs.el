@@ -1,6 +1,7 @@
 ;;; init-emacs.el --- Configure Emacs settings -*- lexical-binding: t; -*-
 
 (use-package emacs
+  :ensure nil
   :config
   (global-auto-revert-mode 1)
   (auto-save-mode -1)
