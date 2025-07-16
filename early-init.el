@@ -5,6 +5,8 @@
 (push (expand-file-name "lisp/" user-emacs-directory)
       load-path)
 
+(require 'early-startup-time)
+
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; no-native-compile: t
