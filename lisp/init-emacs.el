@@ -6,7 +6,8 @@
   (auto-save-mode -1)
   (setq auto-save-visited-interval 0)
   (auto-save-visited-mode 1)
-  (setq make-backup-files nil))
+  (setq make-backup-files nil)
+  (setq visible-bell t))
 
 (provide 'init-emacs)
 ;;; init-emacs.el ends here
