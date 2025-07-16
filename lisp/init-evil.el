@@ -19,6 +19,14 @@
   (evil-split-window-below t)
   (evil-vsplit-window-right t)
   :config
+  ;; The following code enables commenting and uncommenting by pressing gcc in
+  ;; normal mode and gc in visual mode.
+  (evil-define-operator felipe--toggle-comment (beg end)
+    "Toggle comment for the region between BEG and END."
+    (interactive "<r>")
+    (comment-or-uncomment-region beg end))
+  (evil-define-key 'normal 'global (kbd "gc") 'felipe--toggle-comment)
+
   (evil-mode 1))
 
 (use-package evil-collection
