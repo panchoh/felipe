@@ -1,0 +1,8 @@
+#+title: Felipe: an [[https://github.com/progfolio/elpaca][Elpaca]]-driven Emacs config 🚧
+
+[[file:images/felipe.jpeg]]
+
+** Setup
+#+begin_src sh
+git clone https://github.com/panchoh/felipe.git ~/.config/emacs
+#+end_src
