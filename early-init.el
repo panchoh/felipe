@@ -6,6 +6,7 @@
       load-path)
 
 (require 'early-ui)
+(require 'early-startup-time)
 
 ;; Local Variables:
 ;; no-byte-compile: t
