@@ -7,6 +7,7 @@
 
 (require 'early-ui)
 (require 'early-startup-time)
+(require 'early-elpaca)
 
 ;; Local Variables:
 ;; no-byte-compile: t
