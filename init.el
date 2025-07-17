@@ -10,6 +10,7 @@
 (require 'init-general)
 (require 'init-corfu)
 (require 'init-vertico)
+(require 'init-doom-modeline)
 
 (require 'init-emacs)
 
