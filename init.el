@@ -9,6 +9,7 @@
 (require 'init-general)
 (require 'init-corfu)
 (require 'init-vertico)
+(require 'init-doom-modeline)
 
 ;; Local Variables:
 ;; no-byte-compile: t
