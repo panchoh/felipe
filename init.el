@@ -6,6 +6,7 @@
 (require 'init-emacs)
 (require 'init-evil)
 (require 'init-which-key)
+(require 'init-general)
 
 ;; Local Variables:
 ;; no-byte-compile: t
