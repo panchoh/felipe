@@ -36,6 +36,15 @@
   :config
   (evil-collection-init))
 
+(use-package anzu
+  :ensure t
+  :config
+  (global-anzu-mode +1))
+
+(use-package evil-anzu
+  :after (evil anzu)
+  :ensure t)
+
 (provide 'init-evil)
 ;;; init-evil.el ends here
 
