@@ -4,6 +4,7 @@
 (require 'init-elpaca)
 
 (require 'init-emacs)
+(require 'init-evil)
 
 ;; Local Variables:
 ;; no-byte-compile: t
