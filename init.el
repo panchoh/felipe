@@ -8,6 +8,7 @@
 (require 'init-which-key)
 (require 'init-general)
 (require 'init-corfu)
+(require 'init-vertico)
 
 ;; Local Variables:
 ;; no-byte-compile: t
