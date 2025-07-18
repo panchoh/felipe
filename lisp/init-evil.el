@@ -37,6 +37,14 @@
   :init
   (evil-collection-init))
 
+(use-package anzu
+  :ensure t
+  :hook (elpaca-after-init . global-anzu-mode))
+
+(use-package evil-anzu
+  :after (evil anzu)
+  :ensure t)
+
 (provide 'init-evil)
 ;;; init-evil.el ends here
 
