@@ -5,6 +5,8 @@
 
 (require 'init-gc)
 
+(require 'init-evil)
+
 (require 'init-emacs)
 
 ;; Local Variables:
