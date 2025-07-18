@@ -7,6 +7,7 @@
 
 (require 'init-evil)
 (require 'init-which-key)
+(require 'init-general)
 
 (require 'init-emacs)
 
