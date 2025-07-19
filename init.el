@@ -6,6 +6,7 @@
 (require 'init-gc)
 
 (require 'init-evil)
+(require 'init-which-key)
 
 (require 'init-emacs)
 
