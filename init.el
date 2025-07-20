@@ -3,6 +3,8 @@
 (require 'init-elpaca-nixos)
 (require 'init-elpaca)
 
+(require 'init-gc)
+
 (require 'init-emacs)
 
 ;; Local Variables:
