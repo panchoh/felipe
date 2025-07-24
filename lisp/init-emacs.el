@@ -2,6 +2,7 @@
 
 (use-package emacs
   :config
+  (setq custom-file null-device)
   (global-auto-revert-mode 1)
   (auto-save-mode -1)
   (setq auto-save-visited-interval 0)
