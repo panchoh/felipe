@@ -12,6 +12,7 @@
 (require 'init-vertico)
 (require 'init-doom-modeline)
 (require 'init-project)
+(require 'init-magit)
 
 (require 'init-emacs)
 
