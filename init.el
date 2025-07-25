@@ -14,6 +14,7 @@
 (require 'init-project)
 (require 'init-magit)
 (require 'init-eglot)
+(require 'init-pdf)
 
 (require 'init-emacs)
 
