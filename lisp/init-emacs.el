@@ -8,7 +8,9 @@
   (setq auto-save-visited-interval 0)
   (auto-save-visited-mode 1)
   (setq make-backup-files nil)
-  (setq visible-bell t))
+  (setq visible-bell t)
+  (setq pixel-scroll-precision-large-scroll-height 40.0)
+  (pixel-scroll-precision-mode))
 
 (provide 'init-emacs)
 ;;; init-emacs.el ends here
