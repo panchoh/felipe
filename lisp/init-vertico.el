@@ -3,7 +3,7 @@
 ;; Vertico provides a vertical completion interface, making it easier to
 ;; navigate and select from completion candidates (e.g., when `M-x` is pressed).
 (use-package vertico
-  :ensure t
+  :ensure (:files (:defaults "extensions/*"))
   :defer t
   :commands vertico-mode
   :hook (elpaca-after-init . vertico-mode)
