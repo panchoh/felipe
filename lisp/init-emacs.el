@@ -8,6 +8,7 @@
   (setq auto-save-visited-interval 0)
   (auto-save-visited-mode 1)
   (setq make-backup-files nil)
+  (setq native-comp-async-report-warnings-errors nil)
   (setq visible-bell t)
   (setq pixel-scroll-precision-large-scroll-height 40.0)
   (pixel-scroll-precision-mode))
