@@ -1,10 +1,10 @@
 ;;; init-magit.el --- Magit setup -*- lexical-binding: t; -*-
 
 (use-package transient
-  :ensure t)
+  :ensure (:tag "v0.9.3"))
 
 (use-package magit
-  :ensure t)
+  :ensure (:tag "v4.3.7"))
 
 (provide 'init-magit)
 ;;; init-magit.el ends here
