@@ -2,10 +2,7 @@
 
 (defun os-is-nixos-p ()
   "Return t if the operating system is NixOS, nil otherwise."
-  (and (file-exists-p "/etc/os-release")
-       (with-temp-buffer
-         (insert-file-contents "/etc/os-release")
-         (re-search-forward "^ID=nixos$" nil t))))
+  (file-exists-p "/etc/NIXOS"))
 
 (defun nixos-elpaca-core-date-for-version (emacs-version-string)
   "On NixOS, return the Elpaca core date for a given EMACS-VERSION-STRING.
