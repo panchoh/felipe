@@ -2,13 +2,10 @@
 
 (setq debug-on-error t)
 
-(push (expand-file-name "lisp/" user-emacs-directory)
-      load-path)
-
-(require 'early-gc)
-(require 'early-ui)
-(require 'early-startup-time)
-(require 'early-elpaca)
+(require 'early-gc (expand-file-name "user-lisp/early-gc.el" user-emacs-directory))
+(require 'early-ui (expand-file-name "user-lisp/early-ui.el" user-emacs-directory))
+(require 'early-startup-time (expand-file-name "user-lisp/early-startup-time.el" user-emacs-directory))
+(require 'early-elpaca (expand-file-name "user-lisp/early-elpaca.el" user-emacs-directory))
 
 ;; Local Variables:
 ;; no-byte-compile: t
