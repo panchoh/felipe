@@ -12,6 +12,7 @@ For unknown versions, an error is signaled."
   (let ((version-dates
          '(("30.1.90" . 20250518)
            ("30.2" . 20250814)
+           ("31.0.90" . 20260605)
            ;; Add future versions here as they land
            )))
     (or (alist-get emacs-version-string version-dates nil nil #'string=)
