@@ -2,10 +2,14 @@
 
 (setq debug-on-error t)
 
-(require 'early-gc (expand-file-name "user-lisp/early-gc.el" user-emacs-directory))
-(require 'early-ui (expand-file-name "user-lisp/early-ui.el" user-emacs-directory))
-(require 'early-startup-time (expand-file-name "user-lisp/early-startup-time.el" user-emacs-directory))
-(require 'early-elpaca (expand-file-name "user-lisp/early-elpaca.el" user-emacs-directory))
+(dolist (feature '(gc
+                   ui
+                   startup-time
+                   elpaca))
+  (require (intern (format "early-%s" feature))
+           (expand-file-name
+            (format "user-lisp/early-%s.el" feature)
+            user-emacs-directory)))
 
 ;; Local Variables:
 ;; no-byte-compile: t

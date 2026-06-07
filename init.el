@@ -1,23 +1,25 @@
 ;; -*- lexical-binding: t; -*-
 
-(require 'init-elpaca-nixos)
-(require 'init-elpaca)
+(dolist (feature '(elpaca-nixos
+                   elpaca
 
-(require 'init-gc)
+                   gc
 
-(require 'init-evil)
-(require 'init-which-key)
-(require 'init-general)
-(require 'init-corfu)
-(require 'init-vertico)
-(require 'init-doom-modeline)
-(require 'init-project)
-(require 'init-magit)
-(require 'init-org)
-(require 'init-eglot)
-(require 'init-pdf)
+                   evil
+                   which-key
+                   general
+                   corfu
+                   vertico
+                   projectile
+                   doom-modeline
+                   project
+                   magit
+                   org
+                   eglot
+                   pdf
 
-(require 'init-emacs)
+                   emacs))
+  (require (intern (format "init-%s" feature))))
 
 ;; Local Variables:
 ;; no-byte-compile: t
